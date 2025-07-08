@@ -1,0 +1,15 @@
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\BusinessLogicLayer\bin\Debug\net8.0\BusinessLogicLayer.deps.json
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\BusinessLogicLayer\bin\Debug\net8.0\BusinessLogicLayer.dll
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\BusinessLogicLayer\bin\Debug\net8.0\BusinessLogicLayer.pdb
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\BusinessLogicLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\BusinessLogicLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.csproj.AssemblyReference.cache
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.AssemblyInfoInputs.cache
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.AssemblyInfo.cs
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\BusinessLogicLayer\obj\Debug\net8.0\Business.450209FB.Up2Date
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.dll
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\BusinessLogicLayer\obj\Debug\net8.0\refint\BusinessLogicLayer.dll
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.pdb
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\BusinessLogicLayer\obj\Debug\net8.0\ref\BusinessLogicLayer.dll

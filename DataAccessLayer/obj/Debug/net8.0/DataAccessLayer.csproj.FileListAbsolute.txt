@@ -1,0 +1,14 @@
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
