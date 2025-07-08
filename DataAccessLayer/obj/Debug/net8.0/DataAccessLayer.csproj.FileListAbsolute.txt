@@ -12,3 +12,18 @@ D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8
 D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
 D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
 D:\Capcut\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+C:\Users\Admin\Desktop\Kiểm chứng phần mềm\Lab2\4.PE_PRN231_FA24\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+C:\Users\Admin\Desktop\Kiểm chứng phần mềm\Lab2\4.PE_PRN231_FA24\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+C:\Users\Admin\Desktop\Kiểm chứng phần mềm\Lab2\4.PE_PRN231_FA24\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\Admin\Desktop\Kiểm chứng phần mềm\Lab2\4.PE_PRN231_FA24\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\Admin\Desktop\Kiểm chứng phần mềm\Lab2\4.PE_PRN231_FA24\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Kiểm chứng phần mềm\Lab2\4.PE_PRN231_FA24\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Kiểm chứng phần mềm\Lab2\4.PE_PRN231_FA24\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Kiểm chứng phần mềm\Lab2\4.PE_PRN231_FA24\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Kiểm chứng phần mềm\Lab2\4.PE_PRN231_FA24\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Kiểm chứng phần mềm\Lab2\4.PE_PRN231_FA24\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+C:\Users\Admin\Desktop\Kiểm chứng phần mềm\Lab2\4.PE_PRN231_FA24\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+C:\Users\Admin\Desktop\Kiểm chứng phần mềm\Lab2\4.PE_PRN231_FA24\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+C:\Users\Admin\Desktop\Kiểm chứng phần mềm\Lab2\4.PE_PRN231_FA24\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\Admin\Desktop\Kiểm chứng phần mềm\Lab2\4.PE_PRN231_FA24\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Kiểm chứng phần mềm\Lab2\4.PE_PRN231_FA24\PE_PRN231_FA24_TrialTest_TranDucManh_BE\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll

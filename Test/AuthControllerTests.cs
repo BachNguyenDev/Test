@@ -30,7 +30,12 @@ public class AuthControllerTests
     public void Login_ReturnsUnauthorized_WhenUserNotFound()
     {
         var users = new List<ViroCureUser>().AsQueryable();
-        _contextMock.Setup(c => c.ViroCureUsers).Returns(users);
+        var mockSet = new Mock<Microsoft.EntityFrameworkCore.DbSet<ViroCureUser>>();
+        mockSet.As<IQueryable<ViroCureUser>>().Setup(m => m.Provider).Returns(users.Provider);
+        mockSet.As<IQueryable<ViroCureUser>>().Setup(m => m.Expression).Returns(users.Expression);
+        mockSet.As<IQueryable<ViroCureUser>>().Setup(m => m.ElementType).Returns(users.ElementType);
+        mockSet.As<IQueryable<ViroCureUser>>().Setup(m => m.GetEnumerator()).Returns(users.GetEnumerator());
+        _contextMock.Setup(c => c.ViroCureUsers).Returns(mockSet.Object);
         var login = new LoginRequest { Email = "a", Password = "b" };
         var result = _controller.Login(login);
         Assert.IsType<UnauthorizedObjectResult>(result);

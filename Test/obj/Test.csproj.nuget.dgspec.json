@@ -4,27 +4,104 @@
     "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\Test\\Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\Test\\Test.csproj": {
+    "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\Test\\Test.csproj",
-        "projectName": "Test",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\Test\\Test.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+        "projectName": "BusinessLogicLayer",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\Test\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\BusinessLogicLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\DataAccessLayer\\DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\DataAccessLayer\\DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -41,12 +118,219 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\PE_PRN231_FA24_TrialTest_TranDucManh_BE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\PE_PRN231_FA24_TrialTest_TranDucManh_BE.csproj",
+        "projectName": "PE_PRN231_FA24_TrialTest_TranDucManh_BE",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\PE_PRN231_FA24_TrialTest_TranDucManh_BE.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\Test\\Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\Test\\Test.csproj",
+        "projectName": "Test",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\Test\\Test.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
+              },
+              "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
+              "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\PE_PRN231_FA24_TrialTest_TranDucManh_BE.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\Kiểm chứng phần mềm\\Lab2\\4.PE_PRN231_FA24\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\PE_PRN231_FA24_TrialTest_TranDucManh_BE\\PE_PRN231_FA24_TrialTest_TranDucManh_BE.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.12.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
             },
             "coverlet.collector": {
               "target": "Package",
@@ -72,6 +356,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
