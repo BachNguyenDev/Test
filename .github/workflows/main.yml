@@ -1,0 +1,55 @@
+name: .NET CI/CD with SonarCloud
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0 # Bắt buộc phải có để SonarCloud phân tích lịch sử Git
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x' # Thay thế bằng phiên bản .NET của bạn
+        
+    - name: Restore dependencies
+      run: dotnet restore
+
+    # --- Bắt đầu các bước SonarCloud ---
+    - name: Setup SonarCloud
+      uses: SonarSource/sonarcloud-github-action@v2.2.0 # Sử dụng action của SonarSource
+      env:
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }} # Truy cập token từ GitHub Secrets
+
+    - name: SonarCloud Scan - Begin
+      run: |
+        dotnet tool install --global dotnet-sonarscanner --version 6.0.0
+        dotnet sonarscanner begin /k:"bachnguyendev_test" /o:"bachnguyendev" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Bắt buộc để phân tích PR và pull request decoration
+
+    - name: Build and Test for SonarCloud Scan
+      run: dotnet build --no-restore && dotnet test --no-build --verbosity normal
+
+    - name: SonarCloud Scan - End
+      run: dotnet sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
+    # --- Kết thúc các bước SonarCloud ---
+
+    # Các bước tiếp theo của bạn nếu có (ví dụ: publish, deploy)
+    # - name: Publish
+    #   if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+    #   run: dotnet publish -c Release -o publish_output
+    # - name: Upload a Build Artifact
+    #   if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+    #   uses: actions/upload-artifact@v4
+    #   with:
+    #     name: dotnet-app
+    #     path: publish_output
