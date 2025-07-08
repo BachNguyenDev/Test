@@ -10,27 +10,16 @@ on:
 
 jobs:
   build:
-    name: Build and analyze on SonarCloud
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          path: .
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
-
-      - name: Debug info
-        run: |
-          echo "Current directory: $(pwd)"
-          echo "List files:"
-          ls -la
-          echo "Check .sln file:"
-          find . -name "*.sln"
 
       - name: Install dependencies
         run: dotnet restore PE_PRN231_FA24_TrialTest_TranDucManh_BE.sln
@@ -43,8 +32,5 @@ jobs:
 
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v2
-        with:
-          projectKey: BachNguyenDev_Test
-          organization: bachnguyendev-2
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
