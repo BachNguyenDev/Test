@@ -16,20 +16,13 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          path: .
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
-
-      - name: Install dependencies
-        run: dotnet restore
-
-      - name: Build
-        run: dotnet build --no-restore --configuration Release
-
-      - name: Test
-        run: dotnet test --no-build --configuration Release
 
       - name: Debug info
         run: |
@@ -38,8 +31,15 @@ jobs:
           ls -la
           echo "Check .sln file:"
           find . -name "*.sln"
-          echo "Check SONAR_TOKEN:"
-          if [ -z "${{ secrets.SONAR_TOKEN }}" ]; then echo "SONAR_TOKEN is NOT set!"; else echo "SONAR_TOKEN is set."; fi
+
+      - name: Install dependencies
+        run: dotnet restore PE_PRN231_FA24_TrialTest_TranDucManh_BE.sln
+
+      - name: Build
+        run: dotnet build PE_PRN231_FA24_TrialTest_TranDucManh_BE.sln --no-restore --configuration Release
+
+      - name: Test
+        run: dotnet test PE_PRN231_FA24_TrialTest_TranDucManh_BE.sln --no-build --configuration Release
 
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v2
