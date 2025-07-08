@@ -31,6 +31,16 @@ jobs:
       - name: Test
         run: dotnet test --no-build --configuration Release
 
+      - name: Debug info
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "List files:"
+          ls -la
+          echo "Check .sln file:"
+          find . -name "*.sln"
+          echo "Check SONAR_TOKEN:"
+          if [ -z "${{ secrets.SONAR_TOKEN }}" ]; then echo "SONAR_TOKEN is NOT set!"; else echo "SONAR_TOKEN is set."; fi
+
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v2
         with:
