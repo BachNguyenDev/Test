@@ -34,7 +34,7 @@ jobs:
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v2
         with:
-          projectKey: bachnguyendev_test
-          organization: bachnguyendev
+          projectKey: BachNguyenDev_Test
+          organization: bachnguyendev-2
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
